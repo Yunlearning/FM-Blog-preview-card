@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="./output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .state-change:hover,
+    .state-change:active,
+    .state-change:focus,
+    .state-change.error {
+      color: #F4D04E;
+    }
+
+    .error {
+      color: #F4D04E;
+    }
+  </style>
+</head>
+
+<body class="bg-yellow-300">
+  <main class="font-figtree flex flex-col justify-center items-center min-h-screen">
+    <div
+      class="w-[384px] border border-black flex flex-col justify-center gap-6 bg-white text-custom-gray-950 rounded-custom-xl p-6 shadow-custom hover:shadow-hover-custom">
+      <img src="./assets/images/illustration-article.svg" alt="illustration-article" class="w-full rounded-custom-lg">
+      <div class="flex flex-col gap-3">
+        <div class="bg-yellow-400 px-3 py-1 w-fit rounded">
+          <p class="text-preset3 font-figtree-extrabold">Learning</p>
+        </div>
+        <p class="text-preset3 font-figtree-semibold">Published 21 Dec 2023</p>
+        <p class="text-preset1 font-figtree-extrabold cursor-pointer 
+        hover:text-custom-yellow 
+        focus:text-custom-yellow
+         active:text-custom-yellow 
+         error:text-custom-yellow">HTML & CSS foundations</p>
+        <p class="text-preset2 text-custom-gray-500 font-figtree-semibold">These languages are the backbone of every
+          website,
+          defining structure,
+          content, and
+          presentation.</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" class="w-8 h-8 rounded-full">
+        <p class="text-preset3 font-figtree-extrabold">Greg Hooper</p>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+</body>
+
+</html>
