@@ -570,10 +570,6 @@ video {
   width: 2rem;
 }
 
-.w-\[384px\] {
-  width: 384px;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -581,6 +577,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[327px\] {
+  width: 327px;
+}
+
+.min-w-\[327px\] {
+  min-width: 327px;
 }
 
 .cursor-pointer {
@@ -605,6 +609,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded {
@@ -691,6 +699,33 @@ video {
   letter-spacing: 0px;
 }
 
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.leading-\[150\%\] {
+  line-height: 150%;
+}
+
 .text-custom-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 107 107 / var(--tw-text-opacity));
@@ -742,7 +777,7 @@ video {
 
   src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
 
-  font-weight: 600;
+  font-weight: 500;
 
   font-style: normal;
 }
@@ -766,4 +801,54 @@ video {
 .active\:text-custom-yellow:active {
   --tw-text-opacity: 1;
   color: rgb(244 208 78 / var(--tw-text-opacity));
+}
+
+@media (min-width: 375px) {
+  .mobile\:w-\[384px\] {
+    width: 384px;
+  }
+
+  .mobile\:w-96 {
+    width: 24rem;
+  }
+
+  .mobile\:min-w-\[327px\] {
+    min-width: 327px;
+  }
+
+  .mobile\:max-w-\[327px\] {
+    max-width: 327px;
+  }
+
+  .mobile\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .mobile\:text-preset3 {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+  }
+
+  .mobile\:text-preset1 {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+  }
+
+  .mobile\:text-preset2 {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .desktop\:w-\[384px\] {
+    width: 384px;
+  }
+
+  .desktop\:w-96 {
+    width: 24rem;
+  }
 }
