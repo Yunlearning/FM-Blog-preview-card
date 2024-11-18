@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [blog-preview-card](https://fm-blog-preview-card-two.vercel.app/)
 
 ## My process
 
