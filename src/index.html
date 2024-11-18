@@ -21,27 +21,20 @@
       color: hsl(228, 45%, 44%);
     }
 
-    .state-change:hover,
-    .state-change:active,
-    .state-change:focus,
-    .state-change.error {
-      color: #F4D04E;
-    }
-
     .error {
       color: #F4D04E;
     }
   </style>
 </head>
 
-<body class="bg-yellow-300">
+<body class="bg-custom-yellow">
   <main class="font-figtree flex flex-col justify-center items-center min-h-screen">
     <div>
       <div
         class="w-[327px] mobile:w-96 desktop:w-96 border border-black flex flex-col justify-center gap-6 bg-white text-custom-gray-950 rounded-custom-xl p-6 shadow-custom hover:shadow-hover-custom">
         <img src="./assets/images/illustration-article.svg" alt="illustration-article" class="w-full rounded-custom-lg">
         <div class="flex flex-col gap-3">
-          <div class="bg-yellow-400 px-3 py-1 w-fit rounded">
+          <div class="bg-custom-yellow px-3 py-1 w-fit rounded">
             <p class="text-xs mobile:text-preset3 font-figtree-extrabold">Learning</p>
           </div>
           <p class="text-xs mobile:text-preset3 font-figtree-semibold">Published 21 Dec 2023</p>
@@ -50,7 +43,7 @@
             focus:text-custom-yellow
              active:text-custom-yellow 
              error:text-custom-yellow">HTML & CSS foundations</p>
-          <p class="text-sm mobile:text-preset2 text-custom-gray-500 font-figtree-semibold">These languages are the
+          <p class="text-sm mobile:text-preset2 text-custom-gray-500 ">These languages are the
             backbone of every
             website,
             defining structure,
@@ -65,11 +58,6 @@
     </div>
 
   </main>
-
-
-
-
-
 </body>
 
 </html>

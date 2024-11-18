@@ -46,7 +46,7 @@ module.exports = {
                 'custom-xl': '20px',
             },
             boxShadow: {
-                custom: '8px 8px 0px 2px rgba(0, 0, 0, 1)',
+                custom: '8px 8px 0px 1px rgba(0, 0, 0, 1)',
                 'hover-custom': '16px 16px 0px 2px rgba(0, 0, 0, 1)',
             },
         },
